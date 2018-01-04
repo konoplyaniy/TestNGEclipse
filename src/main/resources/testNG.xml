@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Suite" verbose="1">
+    <test name="Check Page Titles suite">
+        <classes>
+            <class name="base.FirstTest"/>
+            <class name="base.SecondTest"/>
+        </classes>
+    </test>
+</suite>
