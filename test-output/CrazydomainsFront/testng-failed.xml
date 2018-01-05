@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [CrazydomainsFront]">
+  <test name="Front Home test(failed)">
+    <classes>
+      <class name="base.FirstTest">
+        <methods>
+          <include name="tearUp"/>
+          <include name="tearDown"/>
+          <include name="test1" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- base.FirstTest -->
+    </classes>
+  </test> <!-- Front Home test(failed) -->
+</suite> <!-- Failed suite [CrazydomainsFront] -->

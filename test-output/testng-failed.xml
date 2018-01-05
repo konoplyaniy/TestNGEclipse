@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Main Suite]">
+  <test name="Check Page Titles suite(failed)">
+    <classes>
+      <class name="base.FirstTest">
+        <methods>
+          <include name="test3"/>
+          <include name="tearUp"/>
+          <include name="tearDown"/>
+          <include name="test1" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- base.FirstTest -->
+      <class name="base.SecondTest">
+        <methods>
+          <include name="tearUp"/>
+          <include name="tearDown"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- base.SecondTest -->
+    </classes>
+  </test> <!-- Check Page Titles suite(failed) -->
+</suite> <!-- Failed suite [Main Suite] -->

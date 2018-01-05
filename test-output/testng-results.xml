@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5589" started-at="2018-01-04T13:46:48Z" finished-at="2018-01-04T13:46:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5589" started-at="2018-01-04T13:46:48Z" finished-at="2018-01-04T13:46:54Z">
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:tests.HomePageTest@754ba872]" name="tearUp" is-config="true" duration-ms="1961" started-at="2018-01-04T15:46:46Z" finished-at="2018-01-04T15:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="checkHeaderMenuUrl()[pri:0, instance:tests.HomePageTest@754ba872]" name="checkHeaderMenuUrl" duration-ms="5552" started-at="2018-01-04T15:46:48Z" finished-at="2018-01-04T15:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeaderMenuUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@754ba872]" name="tearDown" is-config="true" duration-ms="797" started-at="2018-01-04T15:46:54Z" finished-at="2018-01-04T15:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
