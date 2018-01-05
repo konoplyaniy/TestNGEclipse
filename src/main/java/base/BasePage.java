@@ -15,6 +15,8 @@ import utils.LogForTest;
 
 @SuppressWarnings("unused")
 public class BasePage {
+	
+	String s;
 
 	protected EventFiringWebDriver driver;
 
